@@ -29,6 +29,11 @@ class DrawingRevision(Base):
         nullable=True
     )
 
+    discipline = Column(
+        String(100),
+        nullable=True,
+    )
+
     previous_revision_id = Column(
         Integer,
         ForeignKey("drawing_revisions.id"),

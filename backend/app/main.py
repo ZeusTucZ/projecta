@@ -6,6 +6,8 @@ from app.models.project import Project
 from app.models.document import Document
 from app.models.drawing import DrawingRevision
 from app.models.potential_change import PotentialChange
+from app.models.rfi import RFI
+from app.models.contract import Contract, ContractSection
 
 from app.routers import projects, documents
 
